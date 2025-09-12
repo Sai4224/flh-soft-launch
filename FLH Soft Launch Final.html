@@ -1,0 +1,3188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0eca10f47493e4f5d7c7800079a130b8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0eca10f47493e4f5d7c7800079a130b8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0eca10f47493e4f5d7c7800079a130b8 = L.map(
+                "map_0eca10f47493e4f5d7c7800079a130b8",
+                {
+                    center: [16.5, 82.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed79c8645c00f09706e5dc0bedc3475a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ed79c8645c00f09706e5dc0bedc3475a.addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+        
+    
+            var feature_group_49d4ad205fb39a87772b5f6febd37557 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_b61e39674809feb6ef05a0f279b2958e = L.marker(
+                [18.2949165, 83.89380179999999],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_85fc77e337a442f5305ab69f05c0f0c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17e1e3d9ea70b6b190bbd4e5c493e49b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7ccafcfcc98cc34366dc3113b56702c = $(`<div id="html_f7ccafcfcc98cc34366dc3113b56702c" style="width: 100.0%; height: 100.0%;">Srikakulam (District)</div>`)[0];
+                popup_17e1e3d9ea70b6b190bbd4e5c493e49b.setContent(html_f7ccafcfcc98cc34366dc3113b56702c);
+            
+        
+
+        marker_b61e39674809feb6ef05a0f279b2958e.bindPopup(popup_17e1e3d9ea70b6b190bbd4e5c493e49b)
+        ;
+
+        
+    
+    
+                marker_b61e39674809feb6ef05a0f279b2958e.setIcon(icon_85fc77e337a442f5305ab69f05c0f0c8);
+            
+    
+            var marker_b0cff4e2bbf1a698b2700fc3db03f5f8 = L.marker(
+                [18.1066576, 83.39555059999999],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_3e1f28ec3ddc2d9745d4d2862f2a814d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4266a00cb18e41a13a0b1dcfdeca1553 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9175041f3be0659a8f8766a5f9e2763e = $(`<div id="html_9175041f3be0659a8f8766a5f9e2763e" style="width: 100.0%; height: 100.0%;">Vizianagaram (District)</div>`)[0];
+                popup_4266a00cb18e41a13a0b1dcfdeca1553.setContent(html_9175041f3be0659a8f8766a5f9e2763e);
+            
+        
+
+        marker_b0cff4e2bbf1a698b2700fc3db03f5f8.bindPopup(popup_4266a00cb18e41a13a0b1dcfdeca1553)
+        ;
+
+        
+    
+    
+                marker_b0cff4e2bbf1a698b2700fc3db03f5f8.setIcon(icon_3e1f28ec3ddc2d9745d4d2862f2a814d);
+            
+    
+            var marker_8f5b6877f603c284068eceaf968e2fa1 = L.marker(
+                [17.6868159, 83.2184815],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_6b9aa6e031d68240c023c08d38cf13e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ddf80eead1297ef944f94e6a400ed87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c66340804639abe624560fb79f1a2471 = $(`<div id="html_c66340804639abe624560fb79f1a2471" style="width: 100.0%; height: 100.0%;">Visakhapatnam (District)</div>`)[0];
+                popup_6ddf80eead1297ef944f94e6a400ed87.setContent(html_c66340804639abe624560fb79f1a2471);
+            
+        
+
+        marker_8f5b6877f603c284068eceaf968e2fa1.bindPopup(popup_6ddf80eead1297ef944f94e6a400ed87)
+        ;
+
+        
+    
+    
+                marker_8f5b6877f603c284068eceaf968e2fa1.setIcon(icon_6b9aa6e031d68240c023c08d38cf13e3);
+            
+    
+            var marker_0e784214f60b6a76d4822cfc1756a4ef = L.marker(
+                [18.0802006, 82.66380199999999],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_64c7fd4241a04db12c866b99e8558650 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a13cd464174f42e6aa59e0c1bc355412 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b5eb1b3a036dfe653191a8e957193b5 = $(`<div id="html_8b5eb1b3a036dfe653191a8e957193b5" style="width: 100.0%; height: 100.0%;">Paderu (District)</div>`)[0];
+                popup_a13cd464174f42e6aa59e0c1bc355412.setContent(html_8b5eb1b3a036dfe653191a8e957193b5);
+            
+        
+
+        marker_0e784214f60b6a76d4822cfc1756a4ef.bindPopup(popup_a13cd464174f42e6aa59e0c1bc355412)
+        ;
+
+        
+    
+    
+                marker_0e784214f60b6a76d4822cfc1756a4ef.setIcon(icon_64c7fd4241a04db12c866b99e8558650);
+            
+    
+            var marker_0b6926d7bfcc2051b0bb6a8aa90becdd = L.marker(
+                [17.6971337, 82.0407137],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_0172a1ea4d4b445d2e826491d38f3012 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b88eb29a116676305698b244d0f5e16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20ae4bea637bc7175d2f9cf1ef47915d = $(`<div id="html_20ae4bea637bc7175d2f9cf1ef47915d" style="width: 100.0%; height: 100.0%;">Alluri Sitarama Raju (District)</div>`)[0];
+                popup_7b88eb29a116676305698b244d0f5e16.setContent(html_20ae4bea637bc7175d2f9cf1ef47915d);
+            
+        
+
+        marker_0b6926d7bfcc2051b0bb6a8aa90becdd.bindPopup(popup_7b88eb29a116676305698b244d0f5e16)
+        ;
+
+        
+    
+    
+                marker_0b6926d7bfcc2051b0bb6a8aa90becdd.setIcon(icon_0172a1ea4d4b445d2e826491d38f3012);
+            
+    
+            var marker_07a0adc5761f89cb590b7e223d41f83b = L.marker(
+                [17.6896435, 83.0023634],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_3025b5d7c62997de4b7fdd3e544aa2ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_955e0bf2101412cf9a98c238a923d50b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3fc883fd29a96cc771117dd40598427 = $(`<div id="html_c3fc883fd29a96cc771117dd40598427" style="width: 100.0%; height: 100.0%;">Anakapalli (District)</div>`)[0];
+                popup_955e0bf2101412cf9a98c238a923d50b.setContent(html_c3fc883fd29a96cc771117dd40598427);
+            
+        
+
+        marker_07a0adc5761f89cb590b7e223d41f83b.bindPopup(popup_955e0bf2101412cf9a98c238a923d50b)
+        ;
+
+        
+    
+    
+                marker_07a0adc5761f89cb590b7e223d41f83b.setIcon(icon_3025b5d7c62997de4b7fdd3e544aa2ca);
+            
+    
+            var marker_38e25d48f82d2d924a4fb22db2b4c8bd = L.marker(
+                [17.0743715, 81.73494199999999],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_522a1348cc8827111195392b0b795f61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0d83d295c0efa6f14248f66af7b6625 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1acdbf45efd94e5e780d31e133c5d234 = $(`<div id="html_1acdbf45efd94e5e780d31e133c5d234" style="width: 100.0%; height: 100.0%;">East Godavari (District)</div>`)[0];
+                popup_d0d83d295c0efa6f14248f66af7b6625.setContent(html_1acdbf45efd94e5e780d31e133c5d234);
+            
+        
+
+        marker_38e25d48f82d2d924a4fb22db2b4c8bd.bindPopup(popup_d0d83d295c0efa6f14248f66af7b6625)
+        ;
+
+        
+    
+    
+                marker_38e25d48f82d2d924a4fb22db2b4c8bd.setIcon(icon_522a1348cc8827111195392b0b795f61);
+            
+    
+            var marker_693797ea606f3954adaeee40f26f3c56 = L.marker(
+                [16.5765809, 82.0031356],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_36b2adcb3db84a9422b611ce3beeea80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47f59ff9caecc240d4c20ae3f43c38c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87cf393d76681cd584c764aae1632d39 = $(`<div id="html_87cf393d76681cd584c764aae1632d39" style="width: 100.0%; height: 100.0%;">Dr. B. R. Ambedkar Konaseema (District)</div>`)[0];
+                popup_47f59ff9caecc240d4c20ae3f43c38c6.setContent(html_87cf393d76681cd584c764aae1632d39);
+            
+        
+
+        marker_693797ea606f3954adaeee40f26f3c56.bindPopup(popup_47f59ff9caecc240d4c20ae3f43c38c6)
+        ;
+
+        
+    
+    
+                marker_693797ea606f3954adaeee40f26f3c56.setIcon(icon_36b2adcb3db84a9422b611ce3beeea80);
+            
+    
+            var marker_7f51413cbb295e9ba50558db55075567 = L.marker(
+                [16.7106604, 81.0945138],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_1bbbb94ec723b7bc008d63fc5f1d7c60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fd7dc0029b3678f83c985d600a46bb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c201512cca41dc6dd7f6a2484ffaa14 = $(`<div id="html_1c201512cca41dc6dd7f6a2484ffaa14" style="width: 100.0%; height: 100.0%;">Eluru (District)</div>`)[0];
+                popup_4fd7dc0029b3678f83c985d600a46bb7.setContent(html_1c201512cca41dc6dd7f6a2484ffaa14);
+            
+        
+
+        marker_7f51413cbb295e9ba50558db55075567.bindPopup(popup_4fd7dc0029b3678f83c985d600a46bb7)
+        ;
+
+        
+    
+    
+                marker_7f51413cbb295e9ba50558db55075567.setIcon(icon_1bbbb94ec723b7bc008d63fc5f1d7c60);
+            
+    
+            var marker_f5e7bfc25e81ae989d4dd172199ec819 = L.marker(
+                [16.6475969, 81.6035062],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_889dd8c09aa75100160ae0c2bb68b98e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8b79b633dafeb055cfa1174b2feb63b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b345655e062fdfd26d43832a9807491c = $(`<div id="html_b345655e062fdfd26d43832a9807491c" style="width: 100.0%; height: 100.0%;">West Godavari (District)</div>`)[0];
+                popup_b8b79b633dafeb055cfa1174b2feb63b.setContent(html_b345655e062fdfd26d43832a9807491c);
+            
+        
+
+        marker_f5e7bfc25e81ae989d4dd172199ec819.bindPopup(popup_b8b79b633dafeb055cfa1174b2feb63b)
+        ;
+
+        
+    
+    
+                marker_f5e7bfc25e81ae989d4dd172199ec819.setIcon(icon_889dd8c09aa75100160ae0c2bb68b98e);
+            
+    
+            var marker_ad5c26a8b8f6ea66348710200c07e7cf = L.marker(
+                [16.6099914, 80.7214417],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_c6297f177eee8da88789d60959e52e16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_905da9142024f5bb1e3069bb311a00a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b1f8834150a8a1d82e764e7fb5f3d80 = $(`<div id="html_4b1f8834150a8a1d82e764e7fb5f3d80" style="width: 100.0%; height: 100.0%;">Krishna (District)</div>`)[0];
+                popup_905da9142024f5bb1e3069bb311a00a2.setContent(html_4b1f8834150a8a1d82e764e7fb5f3d80);
+            
+        
+
+        marker_ad5c26a8b8f6ea66348710200c07e7cf.bindPopup(popup_905da9142024f5bb1e3069bb311a00a2)
+        ;
+
+        
+    
+    
+                marker_ad5c26a8b8f6ea66348710200c07e7cf.setIcon(icon_c6297f177eee8da88789d60959e52e16);
+            
+    
+            var marker_9a7855ca30232be686c47726c92b8ad0 = L.marker(
+                [16.3066525, 80.4365402],
+                {
+}
+            ).addTo(feature_group_49d4ad205fb39a87772b5f6febd37557);
+        
+    
+            var icon_4ae1e9a47244afe02fe3e215d3143c76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4d4613002ec64f9ed208f5bb39417cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df8566a89513a4ed42e84a7bc56adb6d = $(`<div id="html_df8566a89513a4ed42e84a7bc56adb6d" style="width: 100.0%; height: 100.0%;">Guntur (District)</div>`)[0];
+                popup_b4d4613002ec64f9ed208f5bb39417cf.setContent(html_df8566a89513a4ed42e84a7bc56adb6d);
+            
+        
+
+        marker_9a7855ca30232be686c47726c92b8ad0.bindPopup(popup_b4d4613002ec64f9ed208f5bb39417cf)
+        ;
+
+        
+    
+    
+                marker_9a7855ca30232be686c47726c92b8ad0.setIcon(icon_4ae1e9a47244afe02fe3e215d3143c76);
+            
+    
+            feature_group_49d4ad205fb39a87772b5f6febd37557.addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+        
+    
+            var feature_group_2e59c1ad0345c6efc19f498f266bfd60 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_fbf3a00432a40c19cbd5e687b0b6a0d6 = L.marker(
+                [18.6051444, 84.2299771],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_0c01600c4b284fc5eb977076f539758b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4bb50d11f05dc1c5637e1c7b45e18e43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3532febaeff42cdaa6ecf52394a53b1d = $(`<div id="html_3532febaeff42cdaa6ecf52394a53b1d" style="width: 100.0%; height: 100.0%;">Tekkali (Revenue Division)</div>`)[0];
+                popup_4bb50d11f05dc1c5637e1c7b45e18e43.setContent(html_3532febaeff42cdaa6ecf52394a53b1d);
+            
+        
+
+        marker_fbf3a00432a40c19cbd5e687b0b6a0d6.bindPopup(popup_4bb50d11f05dc1c5637e1c7b45e18e43)
+        ;
+
+        
+    
+    
+                marker_fbf3a00432a40c19cbd5e687b0b6a0d6.setIcon(icon_0c01600c4b284fc5eb977076f539758b);
+            
+    
+            var poly_line_a8dd684fb4a318e79cec96a09293abe3 = L.polyline(
+                [[18.2949165, 83.89380179999999], [18.6051444, 84.2299771]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_dc7ebe0777544a0d9d6c5c3f08ef73d1 = L.marker(
+                [18.7723549, 84.4109252],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_03b3d508e17cbc35a7fc0fb41c92e418 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_532113c9f36f5e7f58c2b8b2d0579668 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc4358bb4d79be092ac053cb9769cf00 = $(`<div id="html_cc4358bb4d79be092ac053cb9769cf00" style="width: 100.0%; height: 100.0%;">Palasa (Revenue Division)</div>`)[0];
+                popup_532113c9f36f5e7f58c2b8b2d0579668.setContent(html_cc4358bb4d79be092ac053cb9769cf00);
+            
+        
+
+        marker_dc7ebe0777544a0d9d6c5c3f08ef73d1.bindPopup(popup_532113c9f36f5e7f58c2b8b2d0579668)
+        ;
+
+        
+    
+    
+                marker_dc7ebe0777544a0d9d6c5c3f08ef73d1.setIcon(icon_03b3d508e17cbc35a7fc0fb41c92e418);
+            
+    
+            var poly_line_19ffb234f8a783bd252c2d7cb9ec400e = L.polyline(
+                [[18.2949165, 83.89380179999999], [18.7723549, 84.4109252]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_3dc8ef6f0b0bd376fde797f5e73a7348 = L.marker(
+                [18.5727886, 83.356381],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_0fe6d5e5644b65faf36df81880de4ba1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b2428d163a679bd1827bbda9c1a925a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d73b0e03cd868c9be46b1f73e489cd7 = $(`<div id="html_6d73b0e03cd868c9be46b1f73e489cd7" style="width: 100.0%; height: 100.0%;">Bobbili (Revenue Division)</div>`)[0];
+                popup_1b2428d163a679bd1827bbda9c1a925a.setContent(html_6d73b0e03cd868c9be46b1f73e489cd7);
+            
+        
+
+        marker_3dc8ef6f0b0bd376fde797f5e73a7348.bindPopup(popup_1b2428d163a679bd1827bbda9c1a925a)
+        ;
+
+        
+    
+    
+                marker_3dc8ef6f0b0bd376fde797f5e73a7348.setIcon(icon_0fe6d5e5644b65faf36df81880de4ba1);
+            
+    
+            var poly_line_4225725ea01e20bb39b53f2a6dbd87a6 = L.polyline(
+                [[18.1066576, 83.39555059999999], [18.5727886, 83.356381]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_dac9c2075d635fef10796edb5ccaf4e9 = L.marker(
+                [18.3105327, 83.56830099999999],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_e5fecfce04a6082c83dfe87a309261cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_893762477e590c7f70b8e441d4a2920c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f74864267833506e9ee12e0c3895dad = $(`<div id="html_5f74864267833506e9ee12e0c3895dad" style="width: 100.0%; height: 100.0%;">Cheepurupalli (Revenue Division)</div>`)[0];
+                popup_893762477e590c7f70b8e441d4a2920c.setContent(html_5f74864267833506e9ee12e0c3895dad);
+            
+        
+
+        marker_dac9c2075d635fef10796edb5ccaf4e9.bindPopup(popup_893762477e590c7f70b8e441d4a2920c)
+        ;
+
+        
+    
+    
+                marker_dac9c2075d635fef10796edb5ccaf4e9.setIcon(icon_e5fecfce04a6082c83dfe87a309261cc);
+            
+    
+            var poly_line_17319f87e4a9fa212fa4fa2d1ab39280 = L.polyline(
+                [[18.1066576, 83.39555059999999], [18.3105327, 83.56830099999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_e9c0fa1491d3918ec7b1aaad7e3770b5 = L.marker(
+                [17.8243075, 83.35642829999999],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_39d26f43f33b98ebdc9c00720bebd6a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b7bf288c8de779489fad71dec5ab290 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_900698a34d3dea016f4ee7a80ad0fcaa = $(`<div id="html_900698a34d3dea016f4ee7a80ad0fcaa" style="width: 100.0%; height: 100.0%;">Madhurawada (Revenue Division)</div>`)[0];
+                popup_8b7bf288c8de779489fad71dec5ab290.setContent(html_900698a34d3dea016f4ee7a80ad0fcaa);
+            
+        
+
+        marker_e9c0fa1491d3918ec7b1aaad7e3770b5.bindPopup(popup_8b7bf288c8de779489fad71dec5ab290)
+        ;
+
+        
+    
+    
+                marker_e9c0fa1491d3918ec7b1aaad7e3770b5.setIcon(icon_39d26f43f33b98ebdc9c00720bebd6a0);
+            
+    
+            var poly_line_c15202148d5877514905426009fdf2b9 = L.polyline(
+                [[17.6868159, 83.2184815], [17.8243075, 83.35642829999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_026bfa064d0c67858d2a802e42d60a43 = L.marker(
+                [17.8888698, 83.4524802],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_07e9c0e5562a26579f89c58a6bfee7a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0520bfdf3dbc3ae42148cd56b8236d3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_823c0a145a608acd771ee3b52eb95cf6 = $(`<div id="html_823c0a145a608acd771ee3b52eb95cf6" style="width: 100.0%; height: 100.0%;">Bheemunipatnam (Revenue Division)</div>`)[0];
+                popup_0520bfdf3dbc3ae42148cd56b8236d3b.setContent(html_823c0a145a608acd771ee3b52eb95cf6);
+            
+        
+
+        marker_026bfa064d0c67858d2a802e42d60a43.bindPopup(popup_0520bfdf3dbc3ae42148cd56b8236d3b)
+        ;
+
+        
+    
+    
+                marker_026bfa064d0c67858d2a802e42d60a43.setIcon(icon_07e9c0e5562a26579f89c58a6bfee7a8);
+            
+    
+            var poly_line_190ec6501da14586825b68e52495df9f = L.polyline(
+                [[17.6868159, 83.2184815], [17.8888698, 83.4524802]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_60af8ae7412cc5658b810883703cf1c1 = L.marker(
+                [17.8710309, 82.3499325],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_6eb727ba3605827220366a21df9ba8d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e6475051c0c6497c78feae67abbbbee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b21f9445d4e73a160f6735deef2d7747 = $(`<div id="html_b21f9445d4e73a160f6735deef2d7747" style="width: 100.0%; height: 100.0%;">chintapalli (Revenue Division)</div>`)[0];
+                popup_1e6475051c0c6497c78feae67abbbbee.setContent(html_b21f9445d4e73a160f6735deef2d7747);
+            
+        
+
+        marker_60af8ae7412cc5658b810883703cf1c1.bindPopup(popup_1e6475051c0c6497c78feae67abbbbee)
+        ;
+
+        
+    
+    
+                marker_60af8ae7412cc5658b810883703cf1c1.setIcon(icon_6eb727ba3605827220366a21df9ba8d7);
+            
+    
+            var poly_line_c9760f748074aac276dc0b7fc22e7622 = L.polyline(
+                [[18.0802006, 82.66380199999999], [17.8710309, 82.3499325]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_8856c246e64124eb6d5f398bcc1242d2 = L.marker(
+                [17.7462502, 81.39296329999999],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_d0cae219f3f62e68f7ecb8196e2c417c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6d07f58fb082008312b3f5a0bfbfb1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e86b03514504d12ae6ce88b2f970a0c = $(`<div id="html_8e86b03514504d12ae6ce88b2f970a0c" style="width: 100.0%; height: 100.0%;">Chintur (Revenue Division)</div>`)[0];
+                popup_c6d07f58fb082008312b3f5a0bfbfb1b.setContent(html_8e86b03514504d12ae6ce88b2f970a0c);
+            
+        
+
+        marker_8856c246e64124eb6d5f398bcc1242d2.bindPopup(popup_c6d07f58fb082008312b3f5a0bfbfb1b)
+        ;
+
+        
+    
+    
+                marker_8856c246e64124eb6d5f398bcc1242d2.setIcon(icon_d0cae219f3f62e68f7ecb8196e2c417c);
+            
+    
+            var poly_line_43a8342f1a33280af63debf5a5db9401 = L.polyline(
+                [[17.6971337, 82.0407137], [17.7462502, 81.39296329999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_d43c7c10d631dbcede45403aa4989e05 = L.marker(
+                [17.6676424, 82.6106868],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_7345456997d7b00aa5a38e51cc712938 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_397108af29ff624e7084a00a12e1ec27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dc2e679137a5a3d116db493b303f9f2 = $(`<div id="html_2dc2e679137a5a3d116db493b303f9f2" style="width: 100.0%; height: 100.0%;">Narsipatnam (Revenue Division)</div>`)[0];
+                popup_397108af29ff624e7084a00a12e1ec27.setContent(html_2dc2e679137a5a3d116db493b303f9f2);
+            
+        
+
+        marker_d43c7c10d631dbcede45403aa4989e05.bindPopup(popup_397108af29ff624e7084a00a12e1ec27)
+        ;
+
+        
+    
+    
+                marker_d43c7c10d631dbcede45403aa4989e05.setIcon(icon_7345456997d7b00aa5a38e51cc712938);
+            
+    
+            var poly_line_14725eee5f4304bf39db6f3335a6d165 = L.polyline(
+                [[17.6896435, 83.0023634], [17.6676424, 82.6106868]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_4dd3c92e2cb59cbe978afb6422df0ad5 = L.marker(
+                [17.0005383, 81.8040345],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_571abd66a2f7468b55426e320d876712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53a37632950502061c271508ccb25798 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47c74f2556f1cf5046c7eba1295704fe = $(`<div id="html_47c74f2556f1cf5046c7eba1295704fe" style="width: 100.0%; height: 100.0%;">Rajamahendravaram (Revenue Division)</div>`)[0];
+                popup_53a37632950502061c271508ccb25798.setContent(html_47c74f2556f1cf5046c7eba1295704fe);
+            
+        
+
+        marker_4dd3c92e2cb59cbe978afb6422df0ad5.bindPopup(popup_53a37632950502061c271508ccb25798)
+        ;
+
+        
+    
+    
+                marker_4dd3c92e2cb59cbe978afb6422df0ad5.setIcon(icon_571abd66a2f7468b55426e320d876712);
+            
+    
+            var poly_line_014a4dc20ef79f28ccf71df9dad7e432 = L.polyline(
+                [[17.0743715, 81.73494199999999], [17.0005383, 81.8040345]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_87f1020e028ff0472af87fa901b90dce = L.marker(
+                [16.9890648, 82.2474648],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_063372d44b51a0450f61ea43631a85ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28360c5e3643994f9a622532f3e5e084 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa3a4f93580072037aa8ef584bf4a732 = $(`<div id="html_aa3a4f93580072037aa8ef584bf4a732" style="width: 100.0%; height: 100.0%;">Kakinada (Revenue Division)</div>`)[0];
+                popup_28360c5e3643994f9a622532f3e5e084.setContent(html_aa3a4f93580072037aa8ef584bf4a732);
+            
+        
+
+        marker_87f1020e028ff0472af87fa901b90dce.bindPopup(popup_28360c5e3643994f9a622532f3e5e084)
+        ;
+
+        
+    
+    
+                marker_87f1020e028ff0472af87fa901b90dce.setIcon(icon_063372d44b51a0450f61ea43631a85ae);
+            
+    
+            var poly_line_57ab90e50a80dcd2d0d4f355ec524aa6 = L.polyline(
+                [[17.0743715, 81.73494199999999], [16.9890648, 82.2474648]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_2311ab25b70f7e7948548d7c54e4a94a = L.marker(
+                [16.8970864, 81.6634478],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_157167d6d0cdac814e1b5d59c4fe0411 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b7d3e0a871918e4102082952025ff21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d894f767724da559aa22c9d0c11c0521 = $(`<div id="html_d894f767724da559aa22c9d0c11c0521" style="width: 100.0%; height: 100.0%;">Nidadavolu (Revenue Division)</div>`)[0];
+                popup_0b7d3e0a871918e4102082952025ff21.setContent(html_d894f767724da559aa22c9d0c11c0521);
+            
+        
+
+        marker_2311ab25b70f7e7948548d7c54e4a94a.bindPopup(popup_0b7d3e0a871918e4102082952025ff21)
+        ;
+
+        
+    
+    
+                marker_2311ab25b70f7e7948548d7c54e4a94a.setIcon(icon_157167d6d0cdac814e1b5d59c4fe0411);
+            
+    
+            var poly_line_c286bfc2157d84f5bce7b68c8c6f042e = L.polyline(
+                [[16.5765809, 82.0031356], [16.8970864, 81.6634478]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_beaabf007e5760ac7dc333f5a769dcfc = L.marker(
+                [16.7914449, 82.0597816],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_f3d73045eb7eb99c9a1379280c65f177 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d390640ac4bf05b78db869330959000f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780dbd36104d20602db5b591dd9c800b = $(`<div id="html_780dbd36104d20602db5b591dd9c800b" style="width: 100.0%; height: 100.0%;">Draksharama (Revenue Division)</div>`)[0];
+                popup_d390640ac4bf05b78db869330959000f.setContent(html_780dbd36104d20602db5b591dd9c800b);
+            
+        
+
+        marker_beaabf007e5760ac7dc333f5a769dcfc.bindPopup(popup_d390640ac4bf05b78db869330959000f)
+        ;
+
+        
+    
+    
+                marker_beaabf007e5760ac7dc333f5a769dcfc.setIcon(icon_f3d73045eb7eb99c9a1379280c65f177);
+            
+    
+            var poly_line_357488fed88a8596a7acc4eefd83929b = L.polyline(
+                [[16.5765809, 82.0031356], [16.7914449, 82.0597816]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_51164aa1957ce2d09912c116c3013aab = L.marker(
+                [17.1205268, 81.2983022],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_939a8a9c3348cee634394f2b0d27244f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1db330090c16d33759bbc37bfa41a8b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ede7032fd644ebbb610bc576f78b8096 = $(`<div id="html_ede7032fd644ebbb610bc576f78b8096" style="width: 100.0%; height: 100.0%;">Jangareddygudem (Revenue Division)</div>`)[0];
+                popup_1db330090c16d33759bbc37bfa41a8b2.setContent(html_ede7032fd644ebbb610bc576f78b8096);
+            
+        
+
+        marker_51164aa1957ce2d09912c116c3013aab.bindPopup(popup_1db330090c16d33759bbc37bfa41a8b2)
+        ;
+
+        
+    
+    
+                marker_51164aa1957ce2d09912c116c3013aab.setIcon(icon_939a8a9c3348cee634394f2b0d27244f);
+            
+    
+            var poly_line_2bbdae6ebf516ce234c0315444120d97 = L.polyline(
+                [[16.7106604, 81.0945138], [17.1205268, 81.2983022]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_eb8a12e78faa1e95619cbde75ec1b3f3 = L.marker(
+                [16.544893, 81.521241],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_e50e29d47b6bec460031b9f9bd843561 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3df81a3babe6b7abaecaae3f3d8af162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c192cedfef07a592a9da82092cd01ff9 = $(`<div id="html_c192cedfef07a592a9da82092cd01ff9" style="width: 100.0%; height: 100.0%;">Bhimavaram (Revenue Division)</div>`)[0];
+                popup_3df81a3babe6b7abaecaae3f3d8af162.setContent(html_c192cedfef07a592a9da82092cd01ff9);
+            
+        
+
+        marker_eb8a12e78faa1e95619cbde75ec1b3f3.bindPopup(popup_3df81a3babe6b7abaecaae3f3d8af162)
+        ;
+
+        
+    
+    
+                marker_eb8a12e78faa1e95619cbde75ec1b3f3.setIcon(icon_e50e29d47b6bec460031b9f9bd843561);
+            
+    
+            var poly_line_3acfa85e99a581e25afcebd82818d51a = L.polyline(
+                [[16.6475969, 81.6035062], [16.544893, 81.521241]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_4fc5cf086f0d944577b719c632374ea6 = L.marker(
+                [16.4393431, 81.7014331],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_2741d9ad0f591da7747d34a4621a7476 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aee0f4ace7d7665b8db2e5b7948b4d07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b88126ef5f7ddec464ccfa92b565638e = $(`<div id="html_b88126ef5f7ddec464ccfa92b565638e" style="width: 100.0%; height: 100.0%;">Narasapuram (Revenue Division)</div>`)[0];
+                popup_aee0f4ace7d7665b8db2e5b7948b4d07.setContent(html_b88126ef5f7ddec464ccfa92b565638e);
+            
+        
+
+        marker_4fc5cf086f0d944577b719c632374ea6.bindPopup(popup_aee0f4ace7d7665b8db2e5b7948b4d07)
+        ;
+
+        
+    
+    
+                marker_4fc5cf086f0d944577b719c632374ea6.setIcon(icon_2741d9ad0f591da7747d34a4621a7476);
+            
+    
+            var poly_line_6c28c27c353f9413346a55b497a956c6 = L.polyline(
+                [[16.6475969, 81.6035062], [16.4393431, 81.7014331]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_2f78906d5c4f3b9d0d860461e056a14c = L.marker(
+                [16.1808917, 81.1302716],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_a0403abbd2650ce4c12ff69277e67999 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3b33d2f9909c746ab14d023ce0bf87c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd06c9d89a59d37543f0c9c163e6a4b8 = $(`<div id="html_fd06c9d89a59d37543f0c9c163e6a4b8" style="width: 100.0%; height: 100.0%;">Machilipatnam (Revenue Division)</div>`)[0];
+                popup_e3b33d2f9909c746ab14d023ce0bf87c.setContent(html_fd06c9d89a59d37543f0c9c163e6a4b8);
+            
+        
+
+        marker_2f78906d5c4f3b9d0d860461e056a14c.bindPopup(popup_e3b33d2f9909c746ab14d023ce0bf87c)
+        ;
+
+        
+    
+    
+                marker_2f78906d5c4f3b9d0d860461e056a14c.setIcon(icon_a0403abbd2650ce4c12ff69277e67999);
+            
+    
+            var poly_line_720b17d419ea08d3a56a55795782edd8 = L.polyline(
+                [[16.6099914, 80.7214417], [16.1808917, 81.1302716]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_60c5440ddd0f8bc7220f7a7a1f05772a = L.marker(
+                [16.3649265, 80.84257310000001],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_a4718c820d2dd94cc1f08d7122b9f4ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d3af251181fc4b68fd9b1c95fad89bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bba443546b2494fe3c383fa3fba5dab7 = $(`<div id="html_bba443546b2494fe3c383fa3fba5dab7" style="width: 100.0%; height: 100.0%;">Vuyyuru (Revenue Division)</div>`)[0];
+                popup_9d3af251181fc4b68fd9b1c95fad89bb.setContent(html_bba443546b2494fe3c383fa3fba5dab7);
+            
+        
+
+        marker_60c5440ddd0f8bc7220f7a7a1f05772a.bindPopup(popup_9d3af251181fc4b68fd9b1c95fad89bb)
+        ;
+
+        
+    
+    
+                marker_60c5440ddd0f8bc7220f7a7a1f05772a.setIcon(icon_a4718c820d2dd94cc1f08d7122b9f4ae);
+            
+    
+            var poly_line_b86c6785dd973c8645e6297c8f04afa3 = L.polyline(
+                [[16.6099914, 80.7214417], [16.3649265, 80.84257310000001]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var marker_baad887edaaa28c3d0c68e7efa0d8613 = L.marker(
+                [16.237933, 80.6444099],
+                {
+}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            var icon_6677fd1a2c432a649e976a6c2be0b284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba249593a008ad89bcf0be785cfe3210 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_247a9409036e6bcbf2dfc24d72bf54ae = $(`<div id="html_247a9409036e6bcbf2dfc24d72bf54ae" style="width: 100.0%; height: 100.0%;">Tenali (Revenue Division)</div>`)[0];
+                popup_ba249593a008ad89bcf0be785cfe3210.setContent(html_247a9409036e6bcbf2dfc24d72bf54ae);
+            
+        
+
+        marker_baad887edaaa28c3d0c68e7efa0d8613.bindPopup(popup_ba249593a008ad89bcf0be785cfe3210)
+        ;
+
+        
+    
+    
+                marker_baad887edaaa28c3d0c68e7efa0d8613.setIcon(icon_6677fd1a2c432a649e976a6c2be0b284);
+            
+    
+            var poly_line_b4c67db1aff13ce75970419287e8929d = L.polyline(
+                [[16.3066525, 80.4365402], [16.237933, 80.6444099]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_2e59c1ad0345c6efc19f498f266bfd60);
+        
+    
+            feature_group_2e59c1ad0345c6efc19f498f266bfd60.addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+        
+    
+            var feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_9f5b67209bf89d0e1cf82effcc676dab = L.marker(
+                [18.5917012, 84.04983849999999],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_453529f0a43513a77f89daaa19a08331 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e46f9b791625a68d1bbdc18a72bba94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b83d713f1e73d4a311fe114c46f669ad = $(`<div id="html_b83d713f1e73d4a311fe114c46f669ad" style="width: 100.0%; height: 100.0%;">Saravakota (Rural Mandal)</div>`)[0];
+                popup_8e46f9b791625a68d1bbdc18a72bba94.setContent(html_b83d713f1e73d4a311fe114c46f669ad);
+            
+        
+
+        marker_9f5b67209bf89d0e1cf82effcc676dab.bindPopup(popup_8e46f9b791625a68d1bbdc18a72bba94)
+        ;
+
+        
+    
+    
+                marker_9f5b67209bf89d0e1cf82effcc676dab.setIcon(icon_453529f0a43513a77f89daaa19a08331);
+            
+    
+            var poly_line_fee5161d0cbf7a7d9da2d933e9464eef = L.polyline(
+                [[18.2949165, 83.89380179999999], [18.5917012, 84.04983849999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_b222ceaa9f1fa46fff7102c8e42af8a7 = L.marker(
+                [18.1647561, 83.4482228],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_d79749f0be3b08056f75818223fff07d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d491e48467452b411316e5bbe86da0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16487f6f5796458147d9865851e92c48 = $(`<div id="html_16487f6f5796458147d9865851e92c48" style="width: 100.0%; height: 100.0%;">Nellimarla (Rural Mandal)</div>`)[0];
+                popup_6d491e48467452b411316e5bbe86da0c.setContent(html_16487f6f5796458147d9865851e92c48);
+            
+        
+
+        marker_b222ceaa9f1fa46fff7102c8e42af8a7.bindPopup(popup_6d491e48467452b411316e5bbe86da0c)
+        ;
+
+        
+    
+    
+                marker_b222ceaa9f1fa46fff7102c8e42af8a7.setIcon(icon_d79749f0be3b08056f75818223fff07d);
+            
+    
+            var poly_line_31cfd7d0864360928cd52df18d694203 = L.polyline(
+                [[18.1066576, 83.39555059999999], [18.1647561, 83.4482228]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_dc9a2a6efd797fec482ca942393efb76 = L.marker(
+                [17.5467283, 82.2331198],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_9292c45e722a35bf5be47c4e96ca419f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3812cc999e37464fca1fa54f7889a4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_308a56bfe44486e2babee968f7aaa9be = $(`<div id="html_308a56bfe44486e2babee968f7aaa9be" style="width: 100.0%; height: 100.0%;">Rajavommangi (Rural Mandal)</div>`)[0];
+                popup_e3812cc999e37464fca1fa54f7889a4a.setContent(html_308a56bfe44486e2babee968f7aaa9be);
+            
+        
+
+        marker_dc9a2a6efd797fec482ca942393efb76.bindPopup(popup_e3812cc999e37464fca1fa54f7889a4a)
+        ;
+
+        
+    
+    
+                marker_dc9a2a6efd797fec482ca942393efb76.setIcon(icon_9292c45e722a35bf5be47c4e96ca419f);
+            
+    
+            var poly_line_15139f31ec0c4742a0c75df128631b39 = L.polyline(
+                [[17.6971337, 82.0407137], [17.5467283, 82.2331198]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_6c61efc9f390c4b71679d1575ff2db33 = L.marker(
+                [17.7897607, 83.1227031],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_4a59d48004fdc135d77af44cbe7674c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_524c9166041605c8ef283cfad16ce270 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fa28ff740971a98f37ed8abd070db7c = $(`<div id="html_7fa28ff740971a98f37ed8abd070db7c" style="width: 100.0%; height: 100.0%;">Sabbavaram (Rural Mandal)</div>`)[0];
+                popup_524c9166041605c8ef283cfad16ce270.setContent(html_7fa28ff740971a98f37ed8abd070db7c);
+            
+        
+
+        marker_6c61efc9f390c4b71679d1575ff2db33.bindPopup(popup_524c9166041605c8ef283cfad16ce270)
+        ;
+
+        
+    
+    
+                marker_6c61efc9f390c4b71679d1575ff2db33.setIcon(icon_4a59d48004fdc135d77af44cbe7674c8);
+            
+    
+            var poly_line_10dd35ba8c410c2221e27600e49c6fd2 = L.polyline(
+                [[17.6896435, 83.0023634], [17.7897607, 83.1227031]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_25d92146ac4bdab8bf86db8fa5db4f08 = L.marker(
+                [17.3174487, 81.6590343],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_58b9aeba2944c352eb34082742ed9137 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08017d07e3c4c4867489eb06cdfaf8eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4062d1916507a02d74edd908a551566 = $(`<div id="html_f4062d1916507a02d74edd908a551566" style="width: 100.0%; height: 100.0%;">Devipatnam (Rural Mandal)</div>`)[0];
+                popup_08017d07e3c4c4867489eb06cdfaf8eb.setContent(html_f4062d1916507a02d74edd908a551566);
+            
+        
+
+        marker_25d92146ac4bdab8bf86db8fa5db4f08.bindPopup(popup_08017d07e3c4c4867489eb06cdfaf8eb)
+        ;
+
+        
+    
+    
+                marker_25d92146ac4bdab8bf86db8fa5db4f08.setIcon(icon_58b9aeba2944c352eb34082742ed9137);
+            
+    
+            var poly_line_fcff8e63389544487a5b0d8b157b2d24 = L.polyline(
+                [[17.0743715, 81.73494199999999], [17.3174487, 81.6590343]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_3364d2c92bd1fb1d88a8e9486ac85684 = L.marker(
+                [17.0319626, 81.55629069999999],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_7150185ab62807a19625e2591f82ed7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c736a53e82529dfa9f532d8b6c1c4fa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_110f0466c00bf79e89b7dbfb82f2df17 = $(`<div id="html_110f0466c00bf79e89b7dbfb82f2df17" style="width: 100.0%; height: 100.0%;">Devarapalle (Rural Mandal)</div>`)[0];
+                popup_c736a53e82529dfa9f532d8b6c1c4fa7.setContent(html_110f0466c00bf79e89b7dbfb82f2df17);
+            
+        
+
+        marker_3364d2c92bd1fb1d88a8e9486ac85684.bindPopup(popup_c736a53e82529dfa9f532d8b6c1c4fa7)
+        ;
+
+        
+    
+    
+                marker_3364d2c92bd1fb1d88a8e9486ac85684.setIcon(icon_7150185ab62807a19625e2591f82ed7c);
+            
+    
+            var poly_line_acaee4aece7690e34e33891699d79bbf = L.polyline(
+                [[16.7106604, 81.0945138], [17.0319626, 81.55629069999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_131c17ff0a2f5ff77b8f47124714ab19 = L.marker(
+                [16.5527275, 81.2129374],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_638e60de72dbbc7c2a6cebf0d8205315 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9e7671c85f8599c4171eeff20310d07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8f5b0813dfe9368d611c5e7a3f74137 = $(`<div id="html_e8f5b0813dfe9368d611c5e7a3f74137" style="width: 100.0%; height: 100.0%;">kaikaluru (Rural Mandal)</div>`)[0];
+                popup_d9e7671c85f8599c4171eeff20310d07.setContent(html_e8f5b0813dfe9368d611c5e7a3f74137);
+            
+        
+
+        marker_131c17ff0a2f5ff77b8f47124714ab19.bindPopup(popup_d9e7671c85f8599c4171eeff20310d07)
+        ;
+
+        
+    
+    
+                marker_131c17ff0a2f5ff77b8f47124714ab19.setIcon(icon_638e60de72dbbc7c2a6cebf0d8205315);
+            
+    
+            var poly_line_afdf99aede85474899e3e6e0f2e97d6b = L.polyline(
+                [[16.6475969, 81.6035062], [16.5527275, 81.2129374]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_c71329633d4591bf29eb524910bb6b68 = L.marker(
+                [16.5179401, 81.72534739999999],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_4078277cff930f021aa04bcf9dc3f199 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad4b68a9e822760cdd61859955281fd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_024dde3cd868f040318acd27e6ec2255 = $(`<div id="html_024dde3cd868f040318acd27e6ec2255" style="width: 100.0%; height: 100.0%;">Palakollu (Rural Mandal)</div>`)[0];
+                popup_ad4b68a9e822760cdd61859955281fd3.setContent(html_024dde3cd868f040318acd27e6ec2255);
+            
+        
+
+        marker_c71329633d4591bf29eb524910bb6b68.bindPopup(popup_ad4b68a9e822760cdd61859955281fd3)
+        ;
+
+        
+    
+    
+                marker_c71329633d4591bf29eb524910bb6b68.setIcon(icon_4078277cff930f021aa04bcf9dc3f199);
+            
+    
+            var poly_line_a206ff212bcb3153d6179813f99bba5c = L.polyline(
+                [[16.6475969, 81.6035062], [16.5179401, 81.72534739999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_44e9c65e288518ac640779abaecc8d60 = L.marker(
+                [16.5419292, 80.80501410000001],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_818913e6c44c59198bf0d98a1bb704ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3407bf2a4afeb8984a665edd253004f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf29fcc3636f1adf6137acb8271e3a6c = $(`<div id="html_cf29fcc3636f1adf6137acb8271e3a6c" style="width: 100.0%; height: 100.0%;">Gannavaram (Rural Mandal)</div>`)[0];
+                popup_3407bf2a4afeb8984a665edd253004f6.setContent(html_cf29fcc3636f1adf6137acb8271e3a6c);
+            
+        
+
+        marker_44e9c65e288518ac640779abaecc8d60.bindPopup(popup_3407bf2a4afeb8984a665edd253004f6)
+        ;
+
+        
+    
+    
+                marker_44e9c65e288518ac640779abaecc8d60.setIcon(icon_818913e6c44c59198bf0d98a1bb704ca);
+            
+    
+            var poly_line_ef4c1d1aaeea5c7f13ede83fa4530f0f = L.polyline(
+                [[16.6099914, 80.7214417], [16.5419292, 80.80501410000001]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_89408b07362894e6f1af12b618766365 = L.marker(
+                [16.3229167, 80.9610355],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_a7ded2fd2be1d7f0673e48ef36db25b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d7191ee8037243f88e3a67227251bef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_226a5e26e7280bbbca608083cee2f8f8 = $(`<div id="html_226a5e26e7280bbbca608083cee2f8f8" style="width: 100.0%; height: 100.0%;">Pamarru (Rural Mandal)</div>`)[0];
+                popup_6d7191ee8037243f88e3a67227251bef.setContent(html_226a5e26e7280bbbca608083cee2f8f8);
+            
+        
+
+        marker_89408b07362894e6f1af12b618766365.bindPopup(popup_6d7191ee8037243f88e3a67227251bef)
+        ;
+
+        
+    
+    
+                marker_89408b07362894e6f1af12b618766365.setIcon(icon_a7ded2fd2be1d7f0673e48ef36db25b4);
+            
+    
+            var poly_line_dd1f123019fc02c0c4584cb8fb9fde9a = L.polyline(
+                [[16.6099914, 80.7214417], [16.3229167, 80.9610355]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_e51fbbbcee9e2414b8e55cfeabeb2e09 = L.marker(
+                [16.1804779, 80.4470827],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_1a98c287508fae252300537a7749c461 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6edc52fe4b4b48662f60779f9218891d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ba85f405aee7c6cc851ca1d84b0e2b8 = $(`<div id="html_3ba85f405aee7c6cc851ca1d84b0e2b8" style="width: 100.0%; height: 100.0%;">Vatticherukuru (Rural Mandal)</div>`)[0];
+                popup_6edc52fe4b4b48662f60779f9218891d.setContent(html_3ba85f405aee7c6cc851ca1d84b0e2b8);
+            
+        
+
+        marker_e51fbbbcee9e2414b8e55cfeabeb2e09.bindPopup(popup_6edc52fe4b4b48662f60779f9218891d)
+        ;
+
+        
+    
+    
+                marker_e51fbbbcee9e2414b8e55cfeabeb2e09.setIcon(icon_1a98c287508fae252300537a7749c461);
+            
+    
+            var poly_line_ee120eead0b77aecff9bf60af89f8ee2 = L.polyline(
+                [[16.3066525, 80.4365402], [16.1804779, 80.4470827]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var marker_e51c2012a9011c8efeb75cfde616a5c9 = L.marker(
+                [16.4804583, 79.88913269999999],
+                {
+}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            var icon_70c357063343deb154115a7bb8107d98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21c791b1c59a93fd148ef7feaf604894 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c249e6837c6384de12c990a10af353b4 = $(`<div id="html_c249e6837c6384de12c990a10af353b4" style="width: 100.0%; height: 100.0%;">Piduguralla (Rural Mandal)</div>`)[0];
+                popup_21c791b1c59a93fd148ef7feaf604894.setContent(html_c249e6837c6384de12c990a10af353b4);
+            
+        
+
+        marker_e51c2012a9011c8efeb75cfde616a5c9.bindPopup(popup_21c791b1c59a93fd148ef7feaf604894)
+        ;
+
+        
+    
+    
+                marker_e51c2012a9011c8efeb75cfde616a5c9.setIcon(icon_70c357063343deb154115a7bb8107d98);
+            
+    
+            var poly_line_e05a2f18876fe57936de3dafb95a60df = L.polyline(
+                [[16.3066525, 80.4365402], [16.4804583, 79.88913269999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4);
+        
+    
+            feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4.addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+        
+    
+            var feature_group_02f5c9326b51f85ebcaa37751fe4f4a6 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_4fcad297ea7174781162f4f3120a852f = L.marker(
+                [18.6955907, 83.8178494],
+                {
+}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var icon_76b0375892eda197b5d9ecc0ccabc3b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5431510897c1af585fc8bc3e543b9d05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f99da7762a7a8382dcfda04278c9be63 = $(`<div id="html_f99da7762a7a8382dcfda04278c9be63" style="width: 100.0%; height: 100.0%;">Seethampeta (Outer Mandal)</div>`)[0];
+                popup_5431510897c1af585fc8bc3e543b9d05.setContent(html_f99da7762a7a8382dcfda04278c9be63);
+            
+        
+
+        marker_4fcad297ea7174781162f4f3120a852f.bindPopup(popup_5431510897c1af585fc8bc3e543b9d05)
+        ;
+
+        
+    
+    
+                marker_4fcad297ea7174781162f4f3120a852f.setIcon(icon_76b0375892eda197b5d9ecc0ccabc3b1);
+            
+    
+            var poly_line_8daf7c7e5ea8faf0dd3d0d322a43e0bd = L.polyline(
+                [[18.2949165, 83.89380179999999], [18.6955907, 83.8178494]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var marker_ca5d34e12344da32676460295741b541 = L.marker(
+                [18.1111633, 83.1393995],
+                {
+}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var icon_49f731db1f38b4b8dc0edfbc6209ce1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52aaf35143bdd31e002981d9143dd154 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_165f820814000d360292430d5f67c6df = $(`<div id="html_165f820814000d360292430d5f67c6df" style="width: 100.0%; height: 100.0%;">Srungavarapukota (Outer Mandal)</div>`)[0];
+                popup_52aaf35143bdd31e002981d9143dd154.setContent(html_165f820814000d360292430d5f67c6df);
+            
+        
+
+        marker_ca5d34e12344da32676460295741b541.bindPopup(popup_52aaf35143bdd31e002981d9143dd154)
+        ;
+
+        
+    
+    
+                marker_ca5d34e12344da32676460295741b541.setIcon(icon_49f731db1f38b4b8dc0edfbc6209ce1b);
+            
+    
+            var poly_line_3fddd08f439132736e3e63f79746cd86 = L.polyline(
+                [[18.1066576, 83.39555059999999], [18.1111633, 83.1393995]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var marker_c7bda8623eb42e910bc692c89ec22066 = L.marker(
+                [18.1408007, 83.61966489999999],
+                {
+}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var icon_3bfe360703b07b12d39d5c8f882ab901 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f9e1bfc6d1ffcbc7ac5ae6eca0e0f5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5318ea37605dace23111bfc36f564cc = $(`<div id="html_b5318ea37605dace23111bfc36f564cc" style="width: 100.0%; height: 100.0%;">Pydidheemavaram (Outer Mandal)</div>`)[0];
+                popup_6f9e1bfc6d1ffcbc7ac5ae6eca0e0f5c.setContent(html_b5318ea37605dace23111bfc36f564cc);
+            
+        
+
+        marker_c7bda8623eb42e910bc692c89ec22066.bindPopup(popup_6f9e1bfc6d1ffcbc7ac5ae6eca0e0f5c)
+        ;
+
+        
+    
+    
+                marker_c7bda8623eb42e910bc692c89ec22066.setIcon(icon_3bfe360703b07b12d39d5c8f882ab901);
+            
+    
+            var poly_line_2da4f3d626ff45eb85d3d0432a5e5771 = L.polyline(
+                [[18.1066576, 83.39555059999999], [18.1408007, 83.61966489999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var marker_9ce3b45cdb424ab119c6e996d237f8d6 = L.marker(
+                [17.4528541, 82.80354080000001],
+                {
+}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var icon_d0ab7c1513ad9b723e3f08b223236da0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bdd1031b9ffd0e6103406a03bd80e836 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a366e57fd4bd0a78b208aa6176486464 = $(`<div id="html_a366e57fd4bd0a78b208aa6176486464" style="width: 100.0%; height: 100.0%;">Sarvasiddhi Rayavaram (Outer Mandal)</div>`)[0];
+                popup_bdd1031b9ffd0e6103406a03bd80e836.setContent(html_a366e57fd4bd0a78b208aa6176486464);
+            
+        
+
+        marker_9ce3b45cdb424ab119c6e996d237f8d6.bindPopup(popup_bdd1031b9ffd0e6103406a03bd80e836)
+        ;
+
+        
+    
+    
+                marker_9ce3b45cdb424ab119c6e996d237f8d6.setIcon(icon_d0ab7c1513ad9b723e3f08b223236da0);
+            
+    
+            var poly_line_d55e17414f914a081092a711551be1e2 = L.polyline(
+                [[17.6896435, 83.0023634], [17.4528541, 82.80354080000001]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var marker_83fc7349b2152f1af9860c4c390e519e = L.marker(
+                [17.4072904, 82.7154634],
+                {
+}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var icon_eca8c02d972a7dd83c3347149136a555 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbe436da41d876152f381abd42501bcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2877c59a94cecf16839534047652555d = $(`<div id="html_2877c59a94cecf16839534047652555d" style="width: 100.0%; height: 100.0%;">Nakkapalli (Outer Mandal)</div>`)[0];
+                popup_cbe436da41d876152f381abd42501bcc.setContent(html_2877c59a94cecf16839534047652555d);
+            
+        
+
+        marker_83fc7349b2152f1af9860c4c390e519e.bindPopup(popup_cbe436da41d876152f381abd42501bcc)
+        ;
+
+        
+    
+    
+                marker_83fc7349b2152f1af9860c4c390e519e.setIcon(icon_eca8c02d972a7dd83c3347149136a555);
+            
+    
+            var poly_line_b4b69e1c24852a019d0cad2fe9bd29f2 = L.polyline(
+                [[17.6896435, 83.0023634], [17.4072904, 82.7154634]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var marker_916fbbf5190d8617669c5cc1f5b4721d = L.marker(
+                [16.643385, 82.1035342],
+                {
+}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var icon_6df564970784f3eb282a3e6ca4f04a35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_effca25af44f2d4fc7780eea54da0336 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37a5bb30b5e2d3a8c5e234704989e98c = $(`<div id="html_37a5bb30b5e2d3a8c5e234704989e98c" style="width: 100.0%; height: 100.0%;">Mummidivaram (Outer Mandal)</div>`)[0];
+                popup_effca25af44f2d4fc7780eea54da0336.setContent(html_37a5bb30b5e2d3a8c5e234704989e98c);
+            
+        
+
+        marker_916fbbf5190d8617669c5cc1f5b4721d.bindPopup(popup_effca25af44f2d4fc7780eea54da0336)
+        ;
+
+        
+    
+    
+                marker_916fbbf5190d8617669c5cc1f5b4721d.setIcon(icon_6df564970784f3eb282a3e6ca4f04a35);
+            
+    
+            var poly_line_708c5215119e401ae303fd2e1854743e = L.polyline(
+                [[16.5765809, 82.0031356], [16.643385, 82.1035342]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var marker_e10e0befcfc76209ff792f211f86a188 = L.marker(
+                [16.7483263, 81.7446969],
+                {
+}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            var icon_5ed9d49cc46f700bc512685cb7c0ffd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d1ba6c8edafae7a87b89a6c1f48f56c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02f23a452ae1eaa2420b719ca12573de = $(`<div id="html_02f23a452ae1eaa2420b719ca12573de" style="width: 100.0%; height: 100.0%;">Peravali (Outer Mandal)</div>`)[0];
+                popup_4d1ba6c8edafae7a87b89a6c1f48f56c.setContent(html_02f23a452ae1eaa2420b719ca12573de);
+            
+        
+
+        marker_e10e0befcfc76209ff792f211f86a188.bindPopup(popup_4d1ba6c8edafae7a87b89a6c1f48f56c)
+        ;
+
+        
+    
+    
+                marker_e10e0befcfc76209ff792f211f86a188.setIcon(icon_5ed9d49cc46f700bc512685cb7c0ffd5);
+            
+    
+            var poly_line_05783079d1e799c0c9b33a77ceeae0e1 = L.polyline(
+                [[16.6475969, 81.6035062], [16.7483263, 81.7446969]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_02f5c9326b51f85ebcaa37751fe4f4a6);
+        
+    
+            feature_group_02f5c9326b51f85ebcaa37751fe4f4a6.addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+        
+    
+            var feature_group_35bb1b6b86ff4923b6123df6206b4177 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_755cdb1b46d59b25dc3c652d048c854e = L.marker(
+                [18.6872891, 83.6089355],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_7930c120f768a7455981ebf818e4e58d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf5013a55c6195d393f8b43ceba6ceaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1a4b9da65c0d5eb45d6fcc5c9d0b75e = $(`<div id="html_f1a4b9da65c0d5eb45d6fcc5c9d0b75e" style="width: 100.0%; height: 100.0%;">Veeraghattam (Key Town)</div>`)[0];
+                popup_cf5013a55c6195d393f8b43ceba6ceaf.setContent(html_f1a4b9da65c0d5eb45d6fcc5c9d0b75e);
+            
+        
+
+        marker_755cdb1b46d59b25dc3c652d048c854e.bindPopup(popup_cf5013a55c6195d393f8b43ceba6ceaf)
+        ;
+
+        
+    
+    
+                marker_755cdb1b46d59b25dc3c652d048c854e.setIcon(icon_7930c120f768a7455981ebf818e4e58d);
+            
+    
+            var poly_line_6b4e6273062bb06189295b077673687b = L.polyline(
+                [[18.2949165, 83.89380179999999], [18.6872891, 83.6089355]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_cf74b26f6f46208b0a2fb1a499e1ef46 = L.marker(
+                [18.2802222, 83.337057],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_25c510eb0df00f0661eac94151c7a5fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ff42cacd5caedf4b5eafcdc7158540f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8e181879941155be1a437946f826c6c = $(`<div id="html_e8e181879941155be1a437946f826c6c" style="width: 100.0%; height: 100.0%;">Gajapathinagaram (Key Town)</div>`)[0];
+                popup_5ff42cacd5caedf4b5eafcdc7158540f.setContent(html_e8e181879941155be1a437946f826c6c);
+            
+        
+
+        marker_cf74b26f6f46208b0a2fb1a499e1ef46.bindPopup(popup_5ff42cacd5caedf4b5eafcdc7158540f)
+        ;
+
+        
+    
+    
+                marker_cf74b26f6f46208b0a2fb1a499e1ef46.setIcon(icon_25c510eb0df00f0661eac94151c7a5fa);
+            
+    
+            var poly_line_9248709205bc0458565872ed7fdc7409 = L.polyline(
+                [[18.1066576, 83.39555059999999], [18.2802222, 83.337057]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_3f678b3a5fde61f1ca4e978c80e5b01a = L.marker(
+                [17.8899871, 83.1903382],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_3ddf9dbcc70166d82a21ecc3721bac9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b4afb449a9ab25d628a26942913cf53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f3897d61c277aee3d609e77d463d9bb = $(`<div id="html_9f3897d61c277aee3d609e77d463d9bb" style="width: 100.0%; height: 100.0%;">Kothavalasa (Key Town)</div>`)[0];
+                popup_8b4afb449a9ab25d628a26942913cf53.setContent(html_9f3897d61c277aee3d609e77d463d9bb);
+            
+        
+
+        marker_3f678b3a5fde61f1ca4e978c80e5b01a.bindPopup(popup_8b4afb449a9ab25d628a26942913cf53)
+        ;
+
+        
+    
+    
+                marker_3f678b3a5fde61f1ca4e978c80e5b01a.setIcon(icon_3ddf9dbcc70166d82a21ecc3721bac9e);
+            
+    
+            var poly_line_04f17591a6eb971158ff8eefb905d9a4 = L.polyline(
+                [[17.6868159, 83.2184815], [17.8899871, 83.1903382]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_77a9843c212b0a96bb6faf790b388e2c = L.marker(
+                [18.3222221, 82.88017649999999],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_8a740cd3d6e2c8350653917f6d7dcfdd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_653ea0e0102f8370cd091bc9425357fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_060c16ab9b27cd8e5308ab0fb0de2fc5 = $(`<div id="html_060c16ab9b27cd8e5308ab0fb0de2fc5" style="width: 100.0%; height: 100.0%;">Araku (Key Town)</div>`)[0];
+                popup_653ea0e0102f8370cd091bc9425357fd.setContent(html_060c16ab9b27cd8e5308ab0fb0de2fc5);
+            
+        
+
+        marker_77a9843c212b0a96bb6faf790b388e2c.bindPopup(popup_653ea0e0102f8370cd091bc9425357fd)
+        ;
+
+        
+    
+    
+                marker_77a9843c212b0a96bb6faf790b388e2c.setIcon(icon_8a740cd3d6e2c8350653917f6d7dcfdd);
+            
+    
+            var poly_line_9770092bd45a045f91ec114ef231ce99 = L.polyline(
+                [[18.0802006, 82.66380199999999], [18.3222221, 82.88017649999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_eead7914a8e1ac44444c7a271129854c = L.marker(
+                [17.439996, 81.7771574],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_0494da5950c3b1990410276d18ff13e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e94f7745e6891eb4824e8a88de410a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf7a74e823821943c2d257216df3236c = $(`<div id="html_cf7a74e823821943c2d257216df3236c" style="width: 100.0%; height: 100.0%;">Rampachodavaram (Key Town)</div>`)[0];
+                popup_2e94f7745e6891eb4824e8a88de410a1.setContent(html_cf7a74e823821943c2d257216df3236c);
+            
+        
+
+        marker_eead7914a8e1ac44444c7a271129854c.bindPopup(popup_2e94f7745e6891eb4824e8a88de410a1)
+        ;
+
+        
+    
+    
+                marker_eead7914a8e1ac44444c7a271129854c.setIcon(icon_0494da5950c3b1990410276d18ff13e1);
+            
+    
+            var poly_line_a78d4c3dbe5249cd90e754b0059c0f38 = L.polyline(
+                [[17.6971337, 82.0407137], [17.439996, 81.7771574]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_369d4b96a94f32a63055144b868351aa = L.marker(
+                [17.7869196, 82.876488],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_3b2a21cb6e89e1fb0b65fbfd182e44a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efcf88413c3d843b8d8def60b12c5a95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4635438d469a46e48527c6b81d22d901 = $(`<div id="html_4635438d469a46e48527c6b81d22d901" style="width: 100.0%; height: 100.0%;">Butchayyapeta (Key Town)</div>`)[0];
+                popup_efcf88413c3d843b8d8def60b12c5a95.setContent(html_4635438d469a46e48527c6b81d22d901);
+            
+        
+
+        marker_369d4b96a94f32a63055144b868351aa.bindPopup(popup_efcf88413c3d843b8d8def60b12c5a95)
+        ;
+
+        
+    
+    
+                marker_369d4b96a94f32a63055144b868351aa.setIcon(icon_3b2a21cb6e89e1fb0b65fbfd182e44a3);
+            
+    
+            var poly_line_0d9bf02b3fef15dcb32c73f40715b2ee = L.polyline(
+                [[17.6896435, 83.0023634], [17.7869196, 82.876488]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_0c404b5e64f418944e2b9a6e44c6eee6 = L.marker(
+                [17.3573261, 82.544292],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_63f42ad73cbde9a0f8f2a54d0dee00b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bad54a2ec386008122850693a76a64aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9587c1cf728f7ae9b1d39436665fcc82 = $(`<div id="html_9587c1cf728f7ae9b1d39436665fcc82" style="width: 100.0%; height: 100.0%;">Tuni (Key Town)</div>`)[0];
+                popup_bad54a2ec386008122850693a76a64aa.setContent(html_9587c1cf728f7ae9b1d39436665fcc82);
+            
+        
+
+        marker_0c404b5e64f418944e2b9a6e44c6eee6.bindPopup(popup_bad54a2ec386008122850693a76a64aa)
+        ;
+
+        
+    
+    
+                marker_0c404b5e64f418944e2b9a6e44c6eee6.setIcon(icon_63f42ad73cbde9a0f8f2a54d0dee00b5);
+            
+    
+            var poly_line_3e6b7a54167ed270c6abfba7b7442e6e = L.polyline(
+                [[17.0743715, 81.73494199999999], [17.3573261, 82.544292]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_ec44937b47c8aabce5c1e3ee1a7a9d48 = L.marker(
+                [17.2788719, 82.40128729999999],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_9c75459ede60a34475354b8e27f8a9f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfbf6f7e864070571da3c6b02c49c728 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_000aeb07162810ffe77d4d8a45d7ce43 = $(`<div id="html_000aeb07162810ffe77d4d8a45d7ce43" style="width: 100.0%; height: 100.0%;">Annavaram (Key Town)</div>`)[0];
+                popup_bfbf6f7e864070571da3c6b02c49c728.setContent(html_000aeb07162810ffe77d4d8a45d7ce43);
+            
+        
+
+        marker_ec44937b47c8aabce5c1e3ee1a7a9d48.bindPopup(popup_bfbf6f7e864070571da3c6b02c49c728)
+        ;
+
+        
+    
+    
+                marker_ec44937b47c8aabce5c1e3ee1a7a9d48.setIcon(icon_9c75459ede60a34475354b8e27f8a9f0);
+            
+    
+            var poly_line_566cca67341f3acbc0b140cc7a6c8c53 = L.polyline(
+                [[17.0743715, 81.73494199999999], [17.2788719, 82.40128729999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_18b60626d761d2c1721bd537eb3cf7c3 = L.marker(
+                [16.9340866, 81.9555307],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_7337679bf7c95bbce7c1a447dd57f7ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b50458491781ac2fc96116a24abf0758 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06fe621a666290c06cc5ec58703cf0fb = $(`<div id="html_06fe621a666290c06cc5ec58703cf0fb" style="width: 100.0%; height: 100.0%;">Anaparthi (Key Town)</div>`)[0];
+                popup_b50458491781ac2fc96116a24abf0758.setContent(html_06fe621a666290c06cc5ec58703cf0fb);
+            
+        
+
+        marker_18b60626d761d2c1721bd537eb3cf7c3.bindPopup(popup_b50458491781ac2fc96116a24abf0758)
+        ;
+
+        
+    
+    
+                marker_18b60626d761d2c1721bd537eb3cf7c3.setIcon(icon_7337679bf7c95bbce7c1a447dd57f7ae);
+            
+    
+            var poly_line_9765f8ae155343fe51e9b570dd4e646b = L.polyline(
+                [[17.0743715, 81.73494199999999], [16.9340866, 81.9555307]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_dbe4ec36e19e066d48f229a868bb659d = L.marker(
+                [16.8324466, 82.03475879999999],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_1a576631abc6ff362d981e74b4f93f45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_257a0236389c01486e5fd0e3527ed26a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48c43cf25652633c1779337b87263f08 = $(`<div id="html_48c43cf25652633c1779337b87263f08" style="width: 100.0%; height: 100.0%;">Ramachandrapuram (Key Town)</div>`)[0];
+                popup_257a0236389c01486e5fd0e3527ed26a.setContent(html_48c43cf25652633c1779337b87263f08);
+            
+        
+
+        marker_dbe4ec36e19e066d48f229a868bb659d.bindPopup(popup_257a0236389c01486e5fd0e3527ed26a)
+        ;
+
+        
+    
+    
+                marker_dbe4ec36e19e066d48f229a868bb659d.setIcon(icon_1a576631abc6ff362d981e74b4f93f45);
+            
+    
+            var poly_line_68beb523cfee334a00737d34c2139b77 = L.polyline(
+                [[17.0743715, 81.73494199999999], [16.8324466, 82.03475879999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_8c4b2eacf4536b52c08ecf849667ee44 = L.marker(
+                [16.762483, 81.8423198],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_bb07e5ce828646ffe9ad78d45e686997 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_119a93f108290f30aee27403ae62413d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e191faed9c1534fce23a576c94e6d84 = $(`<div id="html_2e191faed9c1534fce23a576c94e6d84" style="width: 100.0%; height: 100.0%;">Ravulapalem (Key Town)</div>`)[0];
+                popup_119a93f108290f30aee27403ae62413d.setContent(html_2e191faed9c1534fce23a576c94e6d84);
+            
+        
+
+        marker_8c4b2eacf4536b52c08ecf849667ee44.bindPopup(popup_119a93f108290f30aee27403ae62413d)
+        ;
+
+        
+    
+    
+                marker_8c4b2eacf4536b52c08ecf849667ee44.setIcon(icon_bb07e5ce828646ffe9ad78d45e686997);
+            
+    
+            var poly_line_f79314d9e9dbb5958498cbc5780e3594 = L.polyline(
+                [[16.5765809, 82.0031356], [16.762483, 81.8423198]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_d23972ddfbcb333e04060d6565e49b00 = L.marker(
+                [16.7875689, 80.8490357],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_d315dfaa5586b2989c2eb7b28f790188 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_803d35b2d3d9e255553879a94a197470 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88a94644df01ddf63cfeb39a580f7c07 = $(`<div id="html_88a94644df01ddf63cfeb39a580f7c07" style="width: 100.0%; height: 100.0%;">Nuzvid (Key Town)</div>`)[0];
+                popup_803d35b2d3d9e255553879a94a197470.setContent(html_88a94644df01ddf63cfeb39a580f7c07);
+            
+        
+
+        marker_d23972ddfbcb333e04060d6565e49b00.bindPopup(popup_803d35b2d3d9e255553879a94a197470)
+        ;
+
+        
+    
+    
+                marker_d23972ddfbcb333e04060d6565e49b00.setIcon(icon_d315dfaa5586b2989c2eb7b28f790188);
+            
+    
+            var poly_line_bad8d5b6816176229c7ce57abd5b8606 = L.polyline(
+                [[16.7106604, 81.0945138], [16.7875689, 80.8490357]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_1bec39113ba7bc18f8bf9ca1bb0fe18f = L.marker(
+                [16.8072523, 81.5316033],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_11c6a49e9221aa6df50b5f96ca4495df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6f1a7dc3ee6f237ad8a9c586f213111 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1692ee6c309636c2bcb5dbca5dad231d = $(`<div id="html_1692ee6c309636c2bcb5dbca5dad231d" style="width: 100.0%; height: 100.0%;">Tadepallegudem (Key Town)</div>`)[0];
+                popup_a6f1a7dc3ee6f237ad8a9c586f213111.setContent(html_1692ee6c309636c2bcb5dbca5dad231d);
+            
+        
+
+        marker_1bec39113ba7bc18f8bf9ca1bb0fe18f.bindPopup(popup_a6f1a7dc3ee6f237ad8a9c586f213111)
+        ;
+
+        
+    
+    
+                marker_1bec39113ba7bc18f8bf9ca1bb0fe18f.setIcon(icon_11c6a49e9221aa6df50b5f96ca4495df);
+            
+    
+            var poly_line_e04cb4f87f3d2919f2eeca9b41927d4f = L.polyline(
+                [[16.6475969, 81.6035062], [16.8072523, 81.5316033]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_cdebd9fcc978af1648b903e7cfae407b = L.marker(
+                [16.4344461, 80.9931388],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_acf89e54bb67ee323eaa5c544e3b3822 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_456bf397e69c572ac3af582c0b2d9257 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25b2d4df9069276496bc977ccc53c536 = $(`<div id="html_25b2d4df9069276496bc977ccc53c536" style="width: 100.0%; height: 100.0%;">Gudivada (Key Town)</div>`)[0];
+                popup_456bf397e69c572ac3af582c0b2d9257.setContent(html_25b2d4df9069276496bc977ccc53c536);
+            
+        
+
+        marker_cdebd9fcc978af1648b903e7cfae407b.bindPopup(popup_456bf397e69c572ac3af582c0b2d9257)
+        ;
+
+        
+    
+    
+                marker_cdebd9fcc978af1648b903e7cfae407b.setIcon(icon_acf89e54bb67ee323eaa5c544e3b3822);
+            
+    
+            var poly_line_1288ff1af52e2df9cb54596be82e1542 = L.polyline(
+                [[16.6099914, 80.7214417], [16.4344461, 80.9931388]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var marker_43981d71ee0dac5acbd6c7db5d0f6026 = L.marker(
+                [16.2359181, 80.04964989999999],
+                {
+}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            var icon_0b30eedea97f04721c5ecf60b5dbb3fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22ddd7ff5f48d6de8b37bbf3309b6d0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23b9ba5b49edc0237420920d37c1466a = $(`<div id="html_23b9ba5b49edc0237420920d37c1466a" style="width: 100.0%; height: 100.0%;">Narasaraopet (Key Town)</div>`)[0];
+                popup_22ddd7ff5f48d6de8b37bbf3309b6d0d.setContent(html_23b9ba5b49edc0237420920d37c1466a);
+            
+        
+
+        marker_43981d71ee0dac5acbd6c7db5d0f6026.bindPopup(popup_22ddd7ff5f48d6de8b37bbf3309b6d0d)
+        ;
+
+        
+    
+    
+                marker_43981d71ee0dac5acbd6c7db5d0f6026.setIcon(icon_0b30eedea97f04721c5ecf60b5dbb3fd);
+            
+    
+            var poly_line_d3d452bd2c9699208232a7e95b0032fa = L.polyline(
+                [[16.3066525, 80.4365402], [16.2359181, 80.04964989999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_35bb1b6b86ff4923b6123df6206b4177);
+        
+    
+            feature_group_35bb1b6b86ff4923b6123df6206b4177.addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+        
+    
+            var feature_group_fcb0077d34be51033882e7c687dca4d2 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_055d80e25742529f15c361326ac253a8 = L.marker(
+                [17.6852956, 83.20374009999999],
+                {
+}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var icon_81028cfd018cc9872f680e1aac1ff9a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c73e1cbbd1106b2b614fb632a5f23f51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7461038c50c9b59a6f3675b12dfda52 = $(`<div id="html_e7461038c50c9b59a6f3675b12dfda52" style="width: 100.0%; height: 100.0%;">Gajuwaka (Urban Center)</div>`)[0];
+                popup_c73e1cbbd1106b2b614fb632a5f23f51.setContent(html_e7461038c50c9b59a6f3675b12dfda52);
+            
+        
+
+        marker_055d80e25742529f15c361326ac253a8.bindPopup(popup_c73e1cbbd1106b2b614fb632a5f23f51)
+        ;
+
+        
+    
+    
+                marker_055d80e25742529f15c361326ac253a8.setIcon(icon_81028cfd018cc9872f680e1aac1ff9a3);
+            
+    
+            var poly_line_220df0d9361fd8e3f78bf623d1aa2403 = L.polyline(
+                [[17.6868159, 83.2184815], [17.6852956, 83.20374009999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var marker_1eaccda932af69f74934e8f53cacf6c0 = L.marker(
+                [17.7272349, 83.3021004],
+                {
+}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var icon_7a905a23a2caa42a9cf21d5eb4a1a10e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4b5aecaf2aca82ec3751ed68dd42136 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3437fbe4b895bdc180c0aedd93a36ff0 = $(`<div id="html_3437fbe4b895bdc180c0aedd93a36ff0" style="width: 100.0%; height: 100.0%;">Dondaparthy (Urban Center)</div>`)[0];
+                popup_c4b5aecaf2aca82ec3751ed68dd42136.setContent(html_3437fbe4b895bdc180c0aedd93a36ff0);
+            
+        
+
+        marker_1eaccda932af69f74934e8f53cacf6c0.bindPopup(popup_c4b5aecaf2aca82ec3751ed68dd42136)
+        ;
+
+        
+    
+    
+                marker_1eaccda932af69f74934e8f53cacf6c0.setIcon(icon_7a905a23a2caa42a9cf21d5eb4a1a10e);
+            
+    
+            var poly_line_e6436c3665bb22d3e72e471552a642c5 = L.polyline(
+                [[17.6868159, 83.2184815], [17.7272349, 83.3021004]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var marker_16a9de4dcafb9232f110403d81997616 = L.marker(
+                [17.7447092, 83.2318634],
+                {
+}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var icon_b53f1de77cd017e5dc2a9d1d915e5264 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1fedfbd706430dc6237c1b459ba26c00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_331a5ab2d83e761bf0588c3d2a090eba = $(`<div id="html_331a5ab2d83e761bf0588c3d2a090eba" style="width: 100.0%; height: 100.0%;">NAD (Urban Center)</div>`)[0];
+                popup_1fedfbd706430dc6237c1b459ba26c00.setContent(html_331a5ab2d83e761bf0588c3d2a090eba);
+            
+        
+
+        marker_16a9de4dcafb9232f110403d81997616.bindPopup(popup_1fedfbd706430dc6237c1b459ba26c00)
+        ;
+
+        
+    
+    
+                marker_16a9de4dcafb9232f110403d81997616.setIcon(icon_b53f1de77cd017e5dc2a9d1d915e5264);
+            
+    
+            var poly_line_38c75d8accaf75a50197e891bd29046d = L.polyline(
+                [[17.6868159, 83.2184815], [17.7447092, 83.2318634]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var marker_60ed27632454006d6eeeccaad3ae024a = L.marker(
+                [17.6864348, 83.1377658],
+                {
+}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var icon_08699d4e9f0a1b69cd00826871541e90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c79fa717e5be15348a966aee37cb72e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80fefe0c51b5c13a89a55ce24110263d = $(`<div id="html_80fefe0c51b5c13a89a55ce24110263d" style="width: 100.0%; height: 100.0%;">Aganampudi (Urban Center)</div>`)[0];
+                popup_7c79fa717e5be15348a966aee37cb72e.setContent(html_80fefe0c51b5c13a89a55ce24110263d);
+            
+        
+
+        marker_60ed27632454006d6eeeccaad3ae024a.bindPopup(popup_7c79fa717e5be15348a966aee37cb72e)
+        ;
+
+        
+    
+    
+                marker_60ed27632454006d6eeeccaad3ae024a.setIcon(icon_08699d4e9f0a1b69cd00826871541e90);
+            
+    
+            var poly_line_7cd6aa00921e56a64bf8a9694477593c = L.polyline(
+                [[17.6868159, 83.2184815], [17.6864348, 83.1377658]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var marker_e8aaeec416298da170bbad3e38e36a53 = L.marker(
+                [16.5061743, 80.6480153],
+                {
+}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            var icon_9dbeb294d2601d4d5c5af6f9bc7f160b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c7482fc083aa04b267c9aa417ad618e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc9a722454b8432a6efc91dbfd16a99c = $(`<div id="html_cc9a722454b8432a6efc91dbfd16a99c" style="width: 100.0%; height: 100.0%;">Vijayawada (Urban Center)</div>`)[0];
+                popup_5c7482fc083aa04b267c9aa417ad618e.setContent(html_cc9a722454b8432a6efc91dbfd16a99c);
+            
+        
+
+        marker_e8aaeec416298da170bbad3e38e36a53.bindPopup(popup_5c7482fc083aa04b267c9aa417ad618e)
+        ;
+
+        
+    
+    
+                marker_e8aaeec416298da170bbad3e38e36a53.setIcon(icon_9dbeb294d2601d4d5c5af6f9bc7f160b);
+            
+    
+            var poly_line_3cd7cbfd1c9a27f2384d73f9a4494648 = L.polyline(
+                [[16.6099914, 80.7214417], [16.5061743, 80.6480153]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fcb0077d34be51033882e7c687dca4d2);
+        
+    
+            feature_group_fcb0077d34be51033882e7c687dca4d2.addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+        
+    
+            var layer_control_0efdf70bc186ac2f414fa0a4ef0fe8cf_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_ed79c8645c00f09706e5dc0bedc3475a,
+                },
+                overlays :  {
+                    "District" : feature_group_49d4ad205fb39a87772b5f6febd37557,
+                    "Revenue Division" : feature_group_2e59c1ad0345c6efc19f498f266bfd60,
+                    "Rural Mandal" : feature_group_a2582d1f666c5a7b3a4d7f2d21dc89d4,
+                    "Outer Mandal" : feature_group_02f5c9326b51f85ebcaa37751fe4f4a6,
+                    "Key Town" : feature_group_35bb1b6b86ff4923b6123df6206b4177,
+                    "Urban Center" : feature_group_fcb0077d34be51033882e7c687dca4d2,
+                },
+            };
+            let layer_control_0efdf70bc186ac2f414fa0a4ef0fe8cf = L.control.layers(
+                layer_control_0efdf70bc186ac2f414fa0a4ef0fe8cf_layers.base_layers,
+                layer_control_0efdf70bc186ac2f414fa0a4ef0fe8cf_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_0eca10f47493e4f5d7c7800079a130b8);
+
+        
+</script>
+</html>
